@@ -1,0 +1,70 @@
+Script started on 2023-02-24 17:56:15-08:00 [TERM="xterm" TTY="/dev/pts/0" COLUMNS="189" LINES="49"]
+^[]0;006868830@csusb.edu@jb359-29:~/cse4600/hw2^G[006868830@csusb.edu@jb359-29 hw2]$ ./main
+myshell > help
+Stephen Brennan's LSH
+Type program names and arguments, and hit enter.
+The following are built in:
+  cd
+  help
+  exit
+  setshellname
+  newname
+  setterminator
+  listnewnames
+  savenewnames
+  readnewnames
+Use the man command for information on other programs.
+myshell > ls -l
+total 29
+-rw-r--r-- 1 006868830@csusb.edu domain users@csusb.edu     0 Feb 24 17:56 hw02log.txt
+-rwxr-xr-x 1 006868830@csusb.edu domain users@csusb.edu 24248 Feb 24 17:45 main
+-rw-r--r-- 1 006868830@csusb.edu domain users@csusb.edu  7933 Feb 24 17:44 main.c
+myshell > setshellname mysh
+mysh > setterminator $
+mysh $ newname myhelp help
+mysh $ newname mycopy cp
+mysh $ newname mycat cat
+mysh $ newname mydel rem
+mysh $ savenewnames myaliases.txt
+mysh $ listnewnames
+myhelp help
+mycopy cp
+mycat cat
+mydel rem
+mysh $ mycat myaliases.txt
+myhelp help
+mycopy cp
+mycat cat
+mydel rem
+mysh $ mycopy myaliases.txt myfile
+mysh $ mycat myfile
+myhelp help
+mycopy cp
+mycat cat
+mydel rem
+mysh $ cat myfile
+myhelp help
+mycopy cp
+mycat cat
+mydel rem
+mysh $ cat myfile
+myhelp help
+mycopy cp
+mycat cat
+mydel rem
+mysh $ ls
+hw02log.txt  main  main.c  myaliases.txt  myfile
+mysh $ listnewnames
+myhelp help
+mycopy cp
+mycat cat
+mydel rem
+mysh $ readnewnames myaliases.txt
+myhelp help
+mycopy cp
+mycat cat
+mydel rem
+mysh $ stop^H ^H^H ^H^H ^H^H ^Hexit
+^[]0;006868830@csusb.edu@jb359-29:~/cse4600/hw2^G[006868830@csusb.edu@jb359-29 hw2]$ exit
+exit
+

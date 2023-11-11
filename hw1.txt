@@ -1,0 +1,27 @@
+#!/bin/bash
+
+echo "Enter backup directory name: "
+read dirname
+
+if [ ! -d $dirname ]
+then
+  mkdir $dirname
+  echo "$dirname created"
+  echo
+else
+  echo "$dirname already exists "
+  echo
+fi
+
+for i in *.cpp
+do
+  cmp -s $i $dirname/$i
+  if [ $? -ne 0 ]
+  then
+    cp $i $dirname/
+    echo "backup $i"
+  else
+    echo "$i has no update"
+    echo
+  fi
+done

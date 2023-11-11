@@ -1,0 +1,67 @@
+Script started on 2023-02-07 17:54:20-08:00 [TERM="xterm" TTY="/dev/pts/0" COLUMNS="80" LINES="24"]
+^[]0;006868830@csusb.edu@jb359-18:~/cse4600^G[006868830@csusb.edu@jb359-18 cse4600]$ ls -l
+total 51
+-rw-r--r-- 1 006868830@csusb.edu domain users@csusb.edu 255 Feb  5 15:39 arithmetic.sh
+-rw-r--r-- 1 006868830@csusb.edu domain users@csusb.edu   0 Feb  7 17:45 backup.cpp
+-rw-r--r-- 1 006868830@csusb.edu domain users@csusb.edu 403 Feb  5 15:50 cond.sh
+-rw-r--r-- 1 006868830@csusb.edu domain users@csusb.edu   0 Feb  7 17:45 func.cpp
+-rw-r--r-- 1 006868830@csusb.edu domain users@csusb.edu   0 Feb  7 17:54 hw1log.txt
+-rw-r--r-- 1 006868830@csusb.edu domain users@csusb.edu 353 Feb  7 17:50 hw1.sh
+-rw-r--r-- 1 006868830@csusb.edu domain users@csusb.edu 450 Feb  5 15:57 loops.sh
+-rw-r--r-- 1 006868830@csusb.edu domain users@csusb.edu  10 Feb  6 11:23 main.cpp
+drwxr-xr-x 2 006868830@csusb.edu domain users@csusb.edu   5 Feb  5 15:19 ^[[0m^[[01;34mteam^[[0m
+-rwxr-xr-x 1 006868830@csusb.edu domain users@csusb.edu  73 Feb  5 15:20 ^[[01;32mteam.sh^[[0m
+-rwxr-xr-x 1 006868830@csusb.edu domain users@csusb.edu 133 Feb  5 15:27 ^[[01;32mvariables.sh^[[0m
+^[]0;006868830@csusb.edu@jb359-18:~/cse4600^G[006868830@csusb.edu@jb359-18 cse4600]$ sh hw`^H^[[K1.sh
+Enter backup directory name:
+cppbackup
+cppbackup created
+
+backup backup.cpp
+backup func.cpp
+backup main.cpp
+^[]0;006868830@csusb.edu@jb359-18:~/cse4600^G[006868830@csusb.edu@jb359-18 cse4600]$ ls -l cppbackup
+total 2
+-rw-r--r-- 1 006868830@csusb.edu domain users@csusb.edu  0 Feb  7 17:54 backup.cpp
+-rw-r--r-- 1 006868830@csusb.edu domain users@csusb.edu  0 Feb  7 17:54 func.cpp
+-rw-r--r-- 1 006868830@csusb.edu domain users@csusb.edu 10 Feb  7 17:54 main.cpp
+^[]0;006868830@csusb.edu@jb359-18:~/cse4600^G[006868830@csusb.edu@jb359-18 cse4600]$ ls -l cppbackup^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^[[5Psh hw1.sh
+Enter backup directory name:
+^[[A^[[A^[[B^H ^H^H ^H^H ^H^H ^H^H ^H^H ^H^H ^H^H ^H^H ^H^H ^H^H ^H^H ^Hcppbackup
+cppbackup already exists
+
+backup.cpp has no update
+
+func.cpp has no update
+
+main.cpp has no update
+
+^[]0;006868830@csusb.edu@jb359-18:~/cse4600^G[006868830@csusb.edu@jb359-18 cse4600]$ echo ""^Hs"^Ho"^He"^Ht"^Hh"^Hi"^H^H^[[1P"^H^H^[[1P"^H^H^[[1P"^H^H^[[1P"^Hm"^He"^Ht"^Hh"^Hi"^Hn"^Hg"^H^[>
+^[]0;006868830@csusb.edu@jb359-18:~/cse4600^G[006868830@csusb.edu@jb359-18 cse4600]$ echo "something">>main.cpp^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^[[16Psh hw1.sh
+Enter backup directory name:
+cppbackup
+cppbackup already exists
+
+backup.cpp has no update
+
+func.cpp has no update
+
+backup main.cpp
+^[]0;006868830@csusb.edu@jb359-18:~/cse4600^G[006868830@csusb.edu@jb359-18 cse4600]$ touch new.cpp
+^[]0;006868830@csusb.edu@jb359-18:~/cse4600^G[006868830@csusb.edu@jb359-18 cse4600]$ touch new.cpp^H^H^H^H^H^H^H^H^H^H^H^H^H^[[3Psh hw1.sh
+Enter backup directory name:
+cppbackup
+cppbackup already exists
+
+backup.cpp has no update
+
+func.cpp has no update
+
+main.cpp has no update
+
+backup new.cpp
+^[]0;006868830@csusb.edu@jb359-18:~/cse4600^G[006868830@csusb.edu@jb359-18 cse4600]$ exit
+exit
+
+Script done on 2023-02-07 17:57:12-08:00 [COMMAND_EXIT_CODE="0"]
+

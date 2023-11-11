@@ -1,0 +1,81 @@
+Script started on 2023-03-18 12:47:28-07:00 [TERM="xterm" TTY="/dev/pts/0" COLUMNS="93" LINES="48"]
+^[]0;006868830@csusb.edu@jb359-25:~/cse4600/hw3/xv6-public^G[006868830@csusb.edu@jb359-25 xv6-public]$ make qemu-nox
+which: no qemu in (/opt/anaconda3/bin:/opt/Xilinx/SDK/2018.2/bin:/opt/Xilinx/SDK/2018.2/gnu/microblaze/lin/bin:/opt/Xilinx/SDK/2018.2/gnu/arm/lin/bin:/opt/Xilinx/SDK/2018.2/gnu/microblaze/>
+qemu-system-i386 -nographic -drive file=fs.img,index=1,media=disk,format=raw -drive file=xv6.img,index=0,media=disk,format=raw -smp 2 -m 512
+^[c^[[?7l^[[2J^[[0mSeaBIOS (version 1.12.0-2.fc30)^M
+
+
+iPXE (http://ipxe.org) 00:03.0 C980 PCI2.10 PnP PMM+1FF91280+1FED1280 C980^M
+Press Ctrl-B to configure iPXE (PCI 00:03.0)...^M                                                                               ^M
+
+
+Booting from Hard Disk..xv6...
+cpu1: starting 1
+cpu0: starting 0
+sb: size 1000 nblocks 941 ninodes 200 nlog 30 logstart 2 inodestart 32 bmap start 58
+init: starting sh
+$ ls
+.              1 1 512
+..             1 1 512
+README         2 2 2286
+cat            2 3 16240
+echo           2 4 15072
+forktest       2 5 9388
+grep           2 6 18432
+init           2 7 15680
+kill           2 8 15104
+ln             2 9 14972
+ls             2 10 17596
+mkdir          2 11 15216
+rm             2 12 15196
+sh             2 13 27716
+stressfs       2 14 16108
+usertests      2 15 67044
+wc             2 16 16956
+zombie         2 17 14788
+cp             2 18 15636
+ps             2 19 14800
+touch          2 20 15360
+date           2 21 15216
+console        3 22 0
+$ cp README myfile
+$ ls
+.              1 1 512
+..             1 1 512
+README         2 2 2286
+cat            2 3 16240
+echo           2 4 15072
+forktest       2 5 9388
+grep           2 6 18432
+init           2 7 15680
+kill           2 8 15104
+ln             2 9 14972
+ls             2 10 17596
+mkdir          2 11 15216
+rm             2 12 15196
+sh             2 13 27716
+stressfs       2 14 16108
+usertests      2 15 67044
+wc             2 16 16956
+zombie         2 17 14788
+cp             2 18 15636
+ps             2 19 14800
+touch          2 20 15360
+date           2 21 15216
+console        3 22 0
+myfile         2 23 2286
+$ ps
+name     pid     state
+init     1       SLEEPING
+ sh      2       SLEEPING
+ ps      6       RUNNING
+ $ touch file1 file2 file3
+$ date
+3/18/2023 19:48:31
+$ QEMU 3.1.1 monitor - type 'help' for more information^M
+(qemu) q^[[K^[[Dqu^[[K^[[D^[[Dqui^[[K^[[D^[[D^[[Dquit^[[K^M
+^[]0;006868830@csusb.edu@jb359-25:~/cse4600/hw3/xv6-public^G[006868830@csusb.edu@jb359-25 xv6-public]$ exit
+exit
+
+Script done on 2023-03-18 12:48:46-07:00 [COMMAND_EXIT_CODE="0"]
+

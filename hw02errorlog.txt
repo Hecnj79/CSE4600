@@ -1,0 +1,17 @@
+Script started on 2023-02-24 18:36:48-08:00 [TERM="xterm" TTY="/dev/pts/1" COLUMNS="93" LINES="48"]
+^[]0;006868830@csusb.edu@jb359-9:~/cse4600/hw2^G[006868830@csusb.edu@jb359-9 hw2]$ ./main
+myshell > readnewnames
+readnewname expects args
+myshell > readnewnames a.txt
+file doesnt exist
+myshell > savenewnames
+savenewname expects args
+myshell > newname
+newname expects args
+myshell > ssn
+lsh: No such file or directory
+myshell > exit
+^[]0;006868830@csusb.edu@jb359-9:~/cse4600/hw2^G[006868830@csusb.edu@jb359-9 hw2]$ exit
+exit
+
+Script done on 2023-02-24 18:37:25-08:00 [COMMAND_EXIT_CODE="0"]
